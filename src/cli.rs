@@ -118,10 +118,6 @@ pub struct Args {
     #[arg(short = 'D', long = "no-delay-ack")]
     pub no_delay_ack: bool,
 
-    /// Print help (builtin)
-    #[arg(short = 'h', long = "help", action = clap::ArgAction::Help)]
-    pub help: bool,
-
     /// Randomize port numbers in range
     #[arg(short = 'r', long = "random")]
     pub random: bool,
